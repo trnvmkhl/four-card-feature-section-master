@@ -1,0 +1,165 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  padding-top: 100px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin: 20px auto;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  padding: 0 32%;
+}
+
+/* Cards section */
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.cards p {
+  font-size: 13px;
+}
+
+/* cards style */
+
+.card {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 10px 15px #D4DADE;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+
+}
+
+/* Card icons */
+
+.card-image {
+position: absolute;
+right: 10%;
+bottom: 10%;
+}
+
+/* Colored borders */
+
+.top {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.bottom {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.left {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.right {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+
+
+
+/* attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Responsiveness */
+
+/* iphone 6/7/8 */
+
+@media (max-width: 375px) {
+
+  h1, h2 {
+    font-size: 1.62rem;
+  }
+
+  footer {
+    position: static;
+  }
+
+
+.header {
+  padding: 0 30px;
+  text-align: justify;
+}
+
+.cards {
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.card {
+  width: 315px;
+}
+
+}
+
+/* iphone 6/7/8 plus */
+@media (min-width: 376px) and (max-width: 414px) {
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    position: static;
+  }
+
+
+.header {
+  padding: 0 32px;
+  text-align: justify;
+}
+
+.cards {
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+
+}
