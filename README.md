@@ -1,4 +1,4 @@
-[My solution!](https://trnvmkhl.github.io/four-card-feature-section-master/)
+[My solution!](https://trnvmkhl.github.io/four-card-feature-section-master/) for 375px and 1440px screen sizes.
 
 
 # Frontend Mentor - Four card feature section
